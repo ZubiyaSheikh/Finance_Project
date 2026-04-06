@@ -21,22 +21,18 @@ It supports:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/ZubiyaSheikh/Finance_Project.git
+cd ./Finance_Project
 ```
 
 ### 2. Create virtual environment
 ```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate
 ```
-### 3. Install dependencies
+### 3. Run the application
 ```bash
-pip install -r requirements.txt
-```
-### 4. Run the application
-```bash
-python app.py
+python finance.py
 ```
 
 ## 🗄️ Database
